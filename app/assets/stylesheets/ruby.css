@@ -1,0 +1,144 @@
+/* header 部分の設定 */
+.Hheader {
+  background-size: cover;
+  display: flex;
+  padding: 2vh 0;
+  height: 120px;
+  color: white;
+  background-color:  rgba(55, 61, 73, 0.975);
+  position: fixed;            
+  top: 0px;                   
+  left: 0px;                 
+  width: 100%; 
+  font-size: 50px;     
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Hlists-left {
+  width: 30%;
+  font-size: 45px;
+  color: white;
+  border-color: gray;
+  text-align: center;
+  border-radius: 10px;
+}
+.Hlist-center {
+   width: 40%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+}
+.Hlists-right {
+  width: 25%;
+  text-align: right;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.user-nickname {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 30px;
+}
+
+
+/* main2 部分の設定 */
+.main2 {
+  display: flex;
+  flex: 1;
+}
+.nav2 {
+  width: 3%;
+  background-color:  rgba(55, 61, 73, 0.975);
+  margin-right: 4%;
+}
+.center2 {
+  width: 94%;
+}
+.center3 {
+  padding: 2vh 2vw;
+  height: 15%;
+  text-align: center;
+}
+.center4 {
+  padding: 2vh ;
+  height: 25%;
+  text-align: center;
+  border: solid;
+  border-radius: 20px;
+  color: lightgray;
+}
+/* Javascript タイピング関連 */
+.Rubytext {
+  color: red;
+  font-size: 500%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+}
+.center5 {
+  padding: 2vh ;
+  height: 10%;
+  display: flex;
+}
+.cenuer5-left {
+  width: 90%;
+}
+.cenuer5-light {
+  width: 10%;
+  height: 50%;
+  text-align: center;
+  font-size: 40px;
+  background-color: lightgray;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+  transition: .3s;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.cenuer5-light  :hover { 
+  opacity: 0.5;
+}
+.rubycenter6 {
+  padding: 2vh ;
+  height: 33%;
+  opacity: 0.9;
+  border: solid;
+  color: red;
+  border-radius: 20px;
+}
+
+/* 右側部分 */
+.aside2{
+  width: 3%;
+  background-color:  rgba(55, 61, 73, 0.975);
+  margin-left: 4%;
+}
+
+
+
+
+/* footer 部分の設定 */
+/* .footer {
+  height: 100px;
+  display: flex;
+}
+.footer-left {
+  height: 100px;
+  width:3%;
+  background-color: rgba(55, 61, 73, 0.975);
+}
+.footer-center {
+  height: 100px;
+  width: 94%;
+}
+.footer-right {
+  height: 100px;
+  width:3%;
+  background-color: rgba(55, 61, 73, 0.975);
+} */

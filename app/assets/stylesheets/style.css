@@ -1,0 +1,552 @@
+/* ----header 部分の設定------ */
+.header-left {
+  width: 25%;
+  font-size: 45px;
+  color: white;
+  border: solid 1px;
+  border-color: gray;
+  text-align: center;
+  border-radius: 10px;
+}
+.header-center {
+   width: 45%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+}
+.header-right {
+  width: 25%;
+  text-align: right;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.login {
+  border: none;
+  color: white;
+  text-decoration: none;
+  border: solid 1px;
+  text-align: center;
+  border-radius: 3px;
+}
+.sign-up {
+  color: white;
+  text-decoration: none;
+  border: solid 1px;
+  text-align: center;
+  border-radius: 3px;
+  margin-left: 30px;
+}
+.user-nickname {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 30px;
+}
+.logout {
+  text-decoration: none;
+  border: solid 1px;
+  text-align: center;
+  border-radius: 3px;
+  margin-left: 90px;
+}
+/* ----header 部分の設定------ */
+
+
+/* ----main部分全体の設定--------- */
+.main {
+  display: flex;
+  flex: 1;
+  padding: 100px 0 0 0;
+  
+}
+.center {
+  flex: 1;
+}
+/* ----main部分全体の設定--------- */
+
+
+/* ----main部分の左Nav部分の設定--- */
+.indexNav {
+  width: 40%;
+  flex-direction: column;
+  position: fixed;
+}
+.indexNavWord1{
+  width: 100%;
+  height: 300px;
+  color: rgba(55, 61, 73, 0.975);
+}
+.indexNavWord2{
+  width: 48%;
+  height: 700px;
+  list-style: none;
+  margin-left: 20%;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  text-shadow:1px 0 0 #f9ebd1,0 1px 0 #f9ebd1,-1px 0 0 #f9ebd1,0 -1px 0 #f9ebd1;
+}
+.showNav {
+  width: 200px;
+}
+li {
+  padding-bottom: 30px;
+}
+/* ----main部分の左Nav部分の設定--- */
+
+
+/* --main部分の真ん中center部分の設定-- */
+.center {
+  width: 50%;
+  padding: 0 0 0 850px;
+}
+
+.centerword1 {
+  list-style: none;
+  height: 100px; 
+  border-bottom: solid;
+  color: rgba(55, 61, 73, 0.975);
+  margin: 35px 0 20px 0;
+  font-size: 35px;
+  border-bottom: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.centerword2 {
+  list-style: none;
+  height: 200px; 
+  border-bottom: solid;
+  color: lightgray;
+  font-size: 35px;
+  font-weight: bold;
+  margin:100px 0 70px 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* --main部分の真ん中center部分の設定-- */
+
+
+/* ----^プログラミング言語リスト------- */
+.centerprog {
+  width: 200px;
+  height: 200px;
+}
+/* ------------HTML------------ */
+.centerHTML {
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HTMLbox {
+  height: 150px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #c3003a;
+  border-radius: 20px;
+  width: 50%;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+  transition: .3s;
+}
+.HTMLbox :hover { 
+  opacity: 0.5;
+}
+.HTMLword {
+  height: 150px;
+  margin-bottom: 20px; 
+  text-align: left;
+  width: 50%;
+  color: lightgray;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+}
+/* -----------HTML------------ */
+
+/* -----------CSS--------------*/
+.centerCSS {
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CSSbox {
+  height: 150px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #44aeea;
+  border-radius: 20px;
+  width: 50%;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+  transition: .3s;
+}
+.CSSbox :hover { 
+  opacity: 0.5;
+}
+
+.CSSword {
+  height: 150px;
+  margin-bottom: 20px; 
+  width: 50%;
+  color: lightgray;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 20px;
+  text-align: right;
+}
+/* ------------CSS-------------*/
+
+/* -----------Ruby----------- */
+.centerRuby {
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Rubybox {
+  height: 150px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #c60019;
+  border-radius: 20px;
+  width: 50%;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+  transition: .3s;
+}
+.Rubybox :hover { 
+  opacity: 0.5;
+}
+.Rubyword {
+  height: 150px;
+  margin-bottom: 20px; 
+  text-align: left;
+  width: 50%;
+  color: lightgray;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+}
+/* ------------Ruby------------ */
+
+
+/* --------JavaScript---------- */
+.centerJavascript {
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Javascriptbox {
+  height: 150px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #f8e133;
+  border-radius: 20px;
+  width: 50%;
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+  transition: .3s;
+}
+.Javascriptbox :hover { 
+  opacity: 0.5;
+}
+.Javascriptword {
+  height: 150px;
+  margin-bottom: 20px; 
+  width: 50%;
+  color: lightgray;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 20px;
+  text-align: right;
+}
+/* --------JavaScript---------- */
+
+/* ------- PHP----------------  */
+.centerPHP  {
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PHPbox {
+  height: 150px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #7b9ad0;
+  border-radius: 20px;
+  width: 50%;
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+  transition: .3s;
+}
+.PHPbox :hover { 
+  opacity: 0.5;
+}
+.PHPword {
+  height: 150px;
+  margin-bottom: 20px; 
+  text-align: left;
+  width: 50%;
+  color: lightgray;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+}
+/* ------- PHP----------------  */
+
+
+/* --------Python-------------  */
+.centerPython  {
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Pythonbox {
+  height: 150px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #ebcc00;
+  border-radius: 20px;
+  width: 50%;
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+  transition: .3s;
+}
+.Pythonbox :hover { 
+  opacity: 0.5;
+}
+.Pythonword {
+  height: 150px;
+  margin-bottom: 20px; 
+  width: 50%;
+  color: lightgray;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 20px;
+  text-align: right;
+}
+/* --------Python-------------  */
+
+/* --------C------------------- */
+.centerC  {
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cbox {
+  height: 150px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #0168b3;
+  border-radius: 20px;
+  width: 50%;
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+  transition: .3s;
+}
+.Cbox :hover { 
+  opacity: 0.5;
+}
+.Cword {
+  height: 150px;
+  margin-bottom: 20px; 
+  text-align: left;
+  width: 50%;
+  color: lightgray;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+}
+/* --------C------------------- */
+
+
+/* --------Swift--------------  */
+.centerSwift  {
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Swiftbox {
+  height: 150px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #cd5638;
+  border-radius: 20px;
+  width: 50%;
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow:1px 0 0 #5185c5,0 1px 0 #5185c5,-1px 0 0 #5185c5,0 -1px 0 #5185c5;
+  transition: .3s;
+}
+.Swiftbox :hover { 
+  opacity: 0.5;
+}
+.Swiftword {
+  height: 150px;
+  margin-bottom: 20px; 
+  width: 50%;
+  color: lightgray;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 20px;
+  text-align: right;
+  
+}
+/* --------Swift--------------  */
+/* ----^プログラミング言語リスト------- */
+
+
+
+/* ----意見、ご希望コーナー------ */
+.centerRow {
+  list-style: none;
+  border-top: solid;
+  color: lightgray;
+  font-size: 35px;
+  font-weight: bold;
+  margin:100px 0 100px 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.RowJword {
+  list-style: none;
+  height: 100px; 
+  border-bottom: solid;
+  color: rgba(55, 61, 73, 0.975);
+  margin: 35px 0 20px 0;
+  font-size: 30px;
+  border-bottom: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.RowEword {
+  list-style: none;
+  height: 100px; 
+  color: lightgray;
+  font-size: 25px;
+  font-weight: bold;
+  margin:50px 0 50px 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.textarea {
+  width: 70%;
+  height: 200px;
+  background-color: rgb(241, 237, 237);
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.comment-warn {
+  color: lightgray;
+}
+.comment-btn {
+  font-size: 20px;
+  color: rgba(11, 248, 209, 0.975);
+  background-color: white;
+  width: 20%;
+  height: 60px;
+  border: solid;
+  border-radius: 40px;
+  transition: .3s;
+}
+.comment-btn  :hover { 
+  opacity: 0.5;
+}
+.login2 {
+  font-size: 25px;
+  color: rgba(11, 248, 209, 0.975);
+  background-color:white;
+  width: 20%;
+  height: 60px;
+  border: solid;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: .3s;
+}
+.login2  :hover { 
+  opacity: 0.5;
+}
+/* ----意見、ご希望コーナー------ */
+
+
+
+
+/* --main部分の右aside部分の設定-- */
+.aside {
+  width: 10%;
+}
+/* --main部分の右aside部分の設定-- */
+
+
+
+/* --javascript のタイピング関連-- */
+.add-red {
+  color: rgb(248, 246, 246);
+  font-size: 75px;
+}
+span {
+  transition: all 300ms 0s ease;
+}
+/* --javascript のタイピング関連-- */
+
+
+/* ---画面の微調整--- */
+@media screen and (max-width: 900px) {
+    body,
+    nav,
+    aside {
+      width: 100%;
+    }
+    div {
+      flex-direction: column;
+    }
+    main {
+      order: -1;
+    }
+}
+/* ---画面の微調整--- */      

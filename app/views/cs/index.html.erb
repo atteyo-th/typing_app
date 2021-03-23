@@ -1,0 +1,33 @@
+<div class='Hheader'>
+  <div class='Hlists-left'></div>
+  <div class='Hlist-center'>Have fun typing!</div>
+  <% if user_signed_in? %>
+  <div class='Hlists-right'>
+  <li><%= link_to "こんにちは#{current_user.nickname}さん", "#", class: "user-nickname" %></li> 
+  </div>
+  <% end %>
+</div>
+       
+<div class='main2'>
+    <div class='nav2'>
+    </div>
+    
+    <div class='center2'>
+      <div class='center3'></div>
+      <div class='center4'>
+        <p class= "Ctext" id="Ctext"></p>
+      </div>
+      <div class='center5'>
+        <div class='cenuer5-left'></div>
+        <div class='cenuer5-light'>
+           <%= link_to 'TOP', root_path, class: "cenuer5-light" %>
+        </div>
+      </div>
+      <div class='Ccenter6'></div>
+      <div class='center7'></div>
+      
+    </div>  
+  
+    <div class='aside2'>
+    </div>
+</div>

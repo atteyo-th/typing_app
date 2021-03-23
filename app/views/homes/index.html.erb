@@ -1,0 +1,193 @@
+<div class='all'>
+  <%# ヘッダー部分テンプレートへ %>
+  <%= render "shared/header" %>
+      <%#中心全体の画面部分  %>
+      <main class='main'>
+        <%#左画面  %>
+        <div class='indexNav'>
+          <div class='indexNavWord1'></div>
+          <div class='indexNavWord2'>
+           <li>プログラミング言語</li>
+           <li>タイピングの練習も併せて学べないかな</li>
+           <li>同じ気持ちの人が喜んでくれたら嬉しい</li>
+           <li>そんな想いから形になりました</li>
+          </div> 
+        </div>
+        <%# ----------------------中心画面 -------------------------------------------- %>
+        <div class='center'>
+          <div class= 'centerword1'>
+           <li>さぁ、今日はどの言語を感覚的に学びたいですか？</li>
+           <li>プログラミング言語一覧⬇️</li>          
+          </div>
+
+          <div class='centerword2'>
+          <p>So, which language would you like to experience sensitively today?</p>
+          <p>List of programming languages⬇️</p>
+          </div>
+
+          <div class='centerProg'>
+            <%# ---------HTML---------- %>
+            <div class='centerHTML'>
+              <div class='HTMLbox'>
+                <%= link_to 'HTML', htmls_path, class: "HTMLbox" %>
+              </div>
+              <div class='HTMLword'>
+               <p>webページの形を構成するマークアップ言語<p>
+               <%= link_to 'Hyper Text Markup Languageの略', 'https://developer.mozilla.org/ja/docs/Web/HTML/Element', class: "HTMLword" %>
+               <p>head要素/body要素の２つで構成される</p>
+              </div>
+            </div>
+            <%# ---------HTML---------- %>
+
+            <%# ---------CSS----------- %>
+            <div class='centerCSS'>
+              <div class='CSSword'>
+               <p>HTMLにデザイン装飾を加えるための言語<p>
+               <%= link_to 'Cascading Style Sheetseの略', 'https://developer.mozilla.org/ja/docs/Web/CSS/Reference', class: "CSSword" %>
+               <p>セレクタ・プロパティ・値から成り立っている</p>
+              </div>
+              <div class='CSSbox'>
+               <%= link_to 'CSS', csss_index_path, class: "CSSbox" %>
+              </div>
+            </div>
+            <%# ---------CSS----------- %>
+
+            <%# ---------Ruby---------- %>
+            <div class='centerRuby'>
+              <div class='Rubybox'>
+                <%= link_to 'Ruby', rubys_index_path, class: "Rubybox" %>
+              </div>
+              <div class='Rubyword'>
+               <p>シンプルで美しく便利で実用的なP言語<p>
+               <%= link_to 'オブジェクト思考,プロパティアクション構成', 'https://www.ruby-lang.org/ja/', class: "Rubyword" %>
+               <%= link_to 'RubyonRails(フレームワーク)を用いる', 'https://railsguides.jp/', class: "Rubyword" %>
+              </div>
+            </div>
+            <%# ---------Ruby---------- %>
+
+            <%# ---------JavaScript----------- %>
+            <div class='centerJavascript'>
+              <div class='Javascriptword'>
+               <p>Webページに動きイベントを付与するP言語<p>
+               <%= link_to 'フロントエンドで処理を行うタイミング', 'https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference', class: "Javascriptword" %>
+               <p>ライブラリを用いて効率的に作業が可能</p>
+              </div>
+              <div class='Javascriptbox'>
+               <%= link_to 'JavaScript', javascripts_index_path, class: "Javascriptbox" %>
+              </div>
+            </div>
+            <%# ---------JavaScript----------- %>
+
+            <%# ---------PHP---------- %>
+            <div class='centerPHP'>
+              <div class='PHPbox'>
+                <%= link_to 'PHP', phps_index_path, class: "PHPbox" %>
+              </div>
+              <div class='PHPword'>
+               <p>webページの形を構成するマークアップ言語<p>
+               <%= link_to 'サーバーサイドで処理を行うタイミング', 'https://www.php.net/manual/ja/langref.php', class: "PHPword" %>
+               <p>Hypertext Preprocessorの略</p>
+              </div>
+            </div>
+            <%# ---------PHP---------- %>
+
+            <%# ---------Python----------- %>
+            <div class='centerPython'>
+              <div class='Pythonword'>
+               <p>様々な用途で活用され,開発が多岐に渡るP言語<p>
+               <%= link_to '空飛ぶモンティ・パイソン が名前の由来', 'https://docs.python.org/ja/3/reference/index.html', class: "Pythonword" %>
+               <p>人工知能開発ビックデータの開発に用いられる</p>
+              </div>
+              <div class='Pythonbox'>
+               <%= link_to 'Python', pythons_index_path, class: "Pythonbox" %>
+              </div>
+            </div>
+            <%# ---------Python----------- %>
+
+            <%# ---------C---------- %>
+            <div class='centerC'>
+              <div class='Cbox'>
+                <%= link_to 'C', cs_index_path, class: "Cbox" %>
+              </div>
+              <div class='Cword'>
+               <p>基幹システムや組み込みソフトウェアに活用<p>
+               <%= link_to '1972年開発で50年以上利用されるP言語', 'https://docs.microsoft.com/ja-jp/cpp/c-language/?view=msvc-160', class: "Cword" %>
+               <p>処理が非常に高速でビックデータ向き</p>
+              </div>
+            </div>
+            <%# ---------C---------- %>
+
+            <%# ---------Swift----------- %>
+            <div class='centerSwift'>
+              <div class='Swiftword'>
+               <p>2014年Apple社が発表iOSやMac向けP言語<p>
+               <%= link_to 'アマツバメという鳥が由来/意味が迅速な', 'https://developer.apple.com/jp/swift/resources/', class: "Swiftword" %>
+               <p>文字列を”で宣言/nullを代入出来ない等が特徴</p>
+              </div>
+              <div class='Swiftbox'>
+               <%= link_to 'Swift', swifts_index_path, class: "Swiftbox" %>
+              </div>
+            </div>
+            <%# ---------Swift----------- %>
+
+            <%#---Row----%>
+            <% if user_signed_in? %>
+            <div class='centerRow'></div>  
+              <div class='RowJword'>
+                <p>追加されたら嬉しい単語やメソッドなど:理由も添えて</p>
+                <p>(参考までにお聞かせください)<p>
+              </div>
+              <div class='RowEword'>
+                <p>Words or methods you would like to see added: please give reasons</p>
+                <p>(please let us know if this is helpful)</p>
+              </div>
+              
+              <div>
+                 <%= form_with(url: homes_path, model: @home, local: true) do |f| %>
+                     <%= f.text_area :comment, class:"textarea", placeholder: "(例)CSSの単語:color を追加して欲しいです"  %>
+                     <p class="comment-warn">
+                      ※新規ユーザー登録頂いたユーザー様のみコメントいただけます。
+                      <br>
+                      ※100%反映する訳ではございません予めご了承ください。
+                      <br>
+                      ※個人情報の保護に基づき,頂いたご意見は本サービス以外の目的では使用致しません。
+                    </p>
+                    <%= f.submit"コメントする", class: "comment-btn" %>
+                 <% end  %>
+              </div>  
+              <% else %> 
+              <div class='centerRow'></div> 
+              <div class='RowJword'>
+                <p>定期的に新しい言語や単語を+Plusしていきます。</p>
+                <p>今後のサービス向上のためあなたのご意見をお聞かせください<p>
+              </div>
+              <div class='RowEword'>
+                <p>We will regularly add new languages and words to +Plus.</p>
+                <p>To help us improve our services in the future, we would like to hear from you.</p>
+              </div>
+              <%= link_to ' ログイン ', new_user_session_path, class: "login2" %>
+                <p class="comment-warn">
+                ※新規ユーザー登録頂いたユーザー様のみコメントいただけます。
+                <br>
+                ※100%反映する訳ではございません予めご了承ください。
+                <br>
+                ※個人情報の保護に基づき,頂いたご意見は本サービス以外の目的では使用致しません。
+                </p>
+              <% end %>
+           </div>
+           <%#---Row----%>
+
+        </div>
+        <%# ----------------------中心画面 -------------------------------------------- %>  
+        
+        <%#右画面 %>
+        <div class='aside'>
+        </div>
+        <%#右画面 %>
+
+      </main>
+      <%#中心全体の画面部分  %>
+  
+</div>
+
+

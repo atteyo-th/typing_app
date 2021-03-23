@@ -3,10 +3,19 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
-require("@rails/ujs").start()
-require("turbolinks").start()
+// require("@rails/ujs").start()
+// require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+require("../html")
+require("../css")
+require("../ruby")
+require("../javascript")
+require("../php")
+require("../python")
+require("../c")
+require("../swift")
+
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference

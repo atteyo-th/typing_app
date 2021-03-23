@@ -1,0 +1,39 @@
+/* body 全体の設定 */
+body {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.all {
+  overflow: scroll;
+}
+
+
+.top-page-header {
+  background-size: cover;
+  padding:2vh 3vw ;
+  display: flex;
+  height: 60px;
+  background-color:  rgba(55, 61, 73, 0.975);
+  position: fixed;            
+  top: 0px;                   
+  left: 0px;                 
+  width: 100%;      
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  
+  
+
+}
+
+.indexNav  {
+  background-image: image-url('macbook.jpeg');
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+

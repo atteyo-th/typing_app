@@ -10,6 +10,10 @@ P Typing +Plus
 
 ユーザ登録を行うと、感想やご意見を投稿できるページへ切り替わります。
 
+### ID/Pass
+* ID: 34412
+* Pass: busted0122
+
 ## Demo
 <https://gyazo.com/dace42670d97079d2bae686d0286235b>
 
@@ -43,9 +47,6 @@ Herokuでデプロイしているため、Herokuの仕様により
 
 本番環境にアクセス頂いた際に画像リンクが切れている可能性がございます。
 
-### ID/Pass
-* ID: 34412
-* Pass: busted0122
 
 ### Githubリポジトリ
 https://github.com/atteyo-th/typing_app
